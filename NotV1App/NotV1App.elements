@@ -34,10 +34,10 @@
     <Reference Include="UIKit" />
     <Reference Include="rtl" />
     <Reference Include="libToffee" />
-    <Reference Include="libElements" />
     <RemoteProjectReference Include="github.com/Mosh/MultiTargets/Library/Library.elements:*">
       <Private>True</Private>
     </RemoteProjectReference>
+    <Reference Include="Elements" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppDelegate.pas" />

@@ -34,10 +34,6 @@
     <Reference Include="rtl" />
     <Reference Include="libToffee" />
     <Reference Include="libElements" />
-    <ProjectReference Include="Library">
-      <Project>{5FBD7A33-9478-47E1-91A1-7CBC6BCA1E2B}</Project>
-      <ProjectFile>..\Library\Library.elements</ProjectFile>
-    </ProjectReference>
     <RemoteProjectReference Include="github.com/Mosh/MultiTargets/Library/Library.elements:*">
       <Private>True</Private>
     </RemoteProjectReference>
