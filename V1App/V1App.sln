@@ -1,0 +1,26 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# RemObjects Fire
+Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "NotV1App", "..\NotV1App\NotV1App.elements", "{3B71FB09-80B2-472F-B143-D8D8C07D4A7C}"
+EndProject
+Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "V1App", "V1App.elements", "{224B8D55-98F3-45AB-9277-760E63377897}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AnyCPU = Debug|AnyCPU
+		Release|AnyCPU = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B71FB09-80B2-472F-B143-D8D8C07D4A7C}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{3B71FB09-80B2-472F-B143-D8D8C07D4A7C}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{3B71FB09-80B2-472F-B143-D8D8C07D4A7C}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{3B71FB09-80B2-472F-B143-D8D8C07D4A7C}.Release|AnyCPU.Build.0 = Release|AnyCPU
+		{224B8D55-98F3-45AB-9277-760E63377897}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{224B8D55-98F3-45AB-9277-760E63377897}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{224B8D55-98F3-45AB-9277-760E63377897}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{224B8D55-98F3-45AB-9277-760E63377897}.Release|AnyCPU.Build.0 = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <RootNamespace>NotV1App</RootNamespace>
+    <ProjectGuid>{3B71FB09-80B2-472F-B143-D8D8C07D4A7C}</ProjectGuid>
+    <OutputType>Executable</OutputType>
+    <AssemblyName>NotV1App</AssemblyName>
+    <Configuration Condition="'$(Configuration)' == ''">Release</Configuration>
+    <SDK>iOS</SDK>
+    <MangleTypeNames>True</MangleTypeNames>
+    <CreateAppBundle>True</CreateAppBundle>
+    <InfoPListFile>.\Resources\Info.plist</InfoPListFile>
+    <DefaultUses>RemObjects.Elements.RTL</DefaultUses>
+    <UseLegacyToffeeMode>False</UseLegacyToffeeMode>
+    <ProvisioningProfileName>Moshine Development</ProvisioningProfileName>
+    <ProvisioningProfile>33449682-59c5-4e00-8e93-2e1042624ae0</ProvisioningProfile>
+    <BundleIdentifier>com.moshine.NotV1App</BundleIdentifier>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <Optimize>False</Optimize>
+    <OutputPath>.\Bin\Debug</OutputPath>
+    <ConditionalDefines>DEBUG;TRACE;</ConditionalDefines>
+    <GenerateDebugInfo>True</GenerateDebugInfo>
+    <EnableAsserts>True</EnableAsserts>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>.\Bin\Release</OutputPath>
+    <GenerateDSym>True</GenerateDSym>
+    <CreateIPA>True</CreateIPA>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CoreGraphics" />
+    <Reference Include="Foundation" />
+    <Reference Include="UIKit" />
+    <Reference Include="rtl" />
+    <Reference Include="libToffee" />
+    <Reference Include="libElements" />
+    <RemoteProjectReference Include="github.com/Mosh/MultiTargets/Library/Library.elements:*">
+      <Private>True</Private>
+    </RemoteProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppDelegate.pas" />
+    <Compile Include="RootViewController.pas" />
+    <Content Include="Resources\Info.plist" />
+    <AssetCatalog Include="Resources\Images.xcassets">
+      <AppIcon>AppIcon</AppIcon>
+    </AssetCatalog>
+    <Xib Include="Resources\LaunchScreen.xib" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\RemObjects Software\Elements\RemObjects.Elements.Toffee.targets" />
+</Project>
