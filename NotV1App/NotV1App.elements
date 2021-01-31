@@ -33,7 +33,6 @@
     <Reference Include="Foundation" />
     <Reference Include="UIKit" />
     <Reference Include="rtl" />
-    <Reference Include="libToffee" />
     <RemoteProjectReference Include="github.com/Mosh/MultiTargets/Library/Library.elements:*">
       <Private>True</Private>
     </RemoteProjectReference>

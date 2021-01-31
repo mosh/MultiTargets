@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
   <PropertyGroup>
-    <ProjectGuid>{5FBD7A33-9478-47E1-91A1-7CBC6BCA1E2B}</ProjectGuid>
+    <ProjectGuid>{B7CC504C-03B1-4DD2-9869-532E83E45BB4}</ProjectGuid>
     <OutputType>StaticLibrary</OutputType>
-    <RootNamespace>Library</RootNamespace>
+    <RootNamespace>BaseLibrary</RootNamespace>
     <Configuration Condition="'$(Configuration)' == ''">Release</Configuration>
     <DefaultUses>RemObjects.Elements.RTL</DefaultUses>
   </PropertyGroup>
@@ -64,11 +64,6 @@
     <Reference Include="Elements">
       <Private>True</Private>
     </Reference>
-    <ProjectReference Include="BaseLibrary">
-      <Project>{B7CC504C-03B1-4DD2-9869-532E83E45BB4}</Project>
-      <ProjectFile>..\BaseLibrary\BaseLibrary.elements</ProjectFile>
-      <Private>True</Private>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.pas" />
