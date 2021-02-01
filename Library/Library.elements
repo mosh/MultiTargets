@@ -17,46 +17,16 @@
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <OutputPath>.\Bin\Release</OutputPath>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Target)' == 'Island.Darwin.macOS' ">
-    <Mode>Island</Mode>
-    <SubMode>Darwin</SubMode>
-    <SDK>macOS</SDK>
-  </PropertyGroup>
   <PropertyGroup Condition=" '$(Target)' == 'Island.Darwin.iOS' ">
     <Mode>Island</Mode>
     <SubMode>Darwin</SubMode>
     <SDK>iOS</SDK>
     <SupportMacCatalyst>False</SupportMacCatalyst>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Target)' == 'Island.Darwin.tvOS' ">
-    <Mode>Island</Mode>
-    <SubMode>Darwin</SubMode>
-    <SDK>tvOS</SDK>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Target)' == 'Island.Darwin.watchOS' ">
-    <Mode>Island</Mode>
-    <SubMode>Darwin</SubMode>
-    <SDK>watchOS</SDK>
-  </PropertyGroup>
   <PropertyGroup Condition=" '$(Target)' == 'Toffee.iOS' ">
     <Mode>Toffee</Mode>
     <SDK>iOS</SDK>
     <SupportMacCatalyst>False</SupportMacCatalyst>
-    <DefaultUses>Foundation;RemObjects.Elements.Linq</DefaultUses>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Target)' == 'Toffee.macOS' ">
-    <Mode>Toffee</Mode>
-    <SDK>macOS</SDK>
-    <DefaultUses>Foundation;RemObjects.Elements.Linq</DefaultUses>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Target)' == 'Toffee.tvOS' ">
-    <Mode>Toffee</Mode>
-    <SDK>tvOS</SDK>
-    <DefaultUses>Foundation;RemObjects.Elements.Linq</DefaultUses>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Target)' == 'Toffee.watchOS' ">
-    <Mode>Toffee</Mode>
-    <SDK>watchOS</SDK>
     <DefaultUses>Foundation;RemObjects.Elements.Linq</DefaultUses>
   </PropertyGroup>
   <ItemGroup>
