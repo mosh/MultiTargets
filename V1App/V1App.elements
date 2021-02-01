@@ -37,6 +37,9 @@
     <RemoteProjectReference Include="github.com/Mosh/MultiTargets/Library/Library.elements:*">
       <Private>True</Private>
     </RemoteProjectReference>
+    <RemoteProjectReference Include="github.com/Mosh/MultiTargets/BaseLibrary/BaseLibrary.elements:*">
+      <Private>True</Private>
+    </RemoteProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppDelegate.pas" />

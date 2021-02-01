@@ -1,0 +1,26 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# RemObjects Fire
+Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "BaseLibrary", "BaseLibrary\BaseLibrary.elements", "{B7CC504C-03B1-4DD2-9869-532E83E45BB4}"
+EndProject
+Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "Library", "Library\Library.elements", "{5FBD7A33-9478-47E1-91A1-7CBC6BCA1E2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AnyCPU = Debug|AnyCPU
+		Release|AnyCPU = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7CC504C-03B1-4DD2-9869-532E83E45BB4}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{B7CC504C-03B1-4DD2-9869-532E83E45BB4}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{B7CC504C-03B1-4DD2-9869-532E83E45BB4}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{B7CC504C-03B1-4DD2-9869-532E83E45BB4}.Release|AnyCPU.Build.0 = Release|AnyCPU
+		{5FBD7A33-9478-47E1-91A1-7CBC6BCA1E2B}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{5FBD7A33-9478-47E1-91A1-7CBC6BCA1E2B}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{5FBD7A33-9478-47E1-91A1-7CBC6BCA1E2B}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{5FBD7A33-9478-47E1-91A1-7CBC6BCA1E2B}.Release|AnyCPU.Build.0 = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
